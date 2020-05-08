@@ -1,8 +1,13 @@
 def square_array(numbers)
+  
+  squared_array = []
 
   numbers.each do |number|
     number = number ** 2 
+    squared_array.push(number)
   end
+  
+  return squared_array
   
 end
 
